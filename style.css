@@ -124,8 +124,8 @@ video iframe{
 
 @media  (max-width:600px) {
      #job{
-        bottom: 240px;
-        left: 138px;
+        bottom: 154px;
+        left: 120px;
      }
     #panel {
         overflow: hidden;
@@ -157,5 +157,6 @@ video iframe{
     }
     #logo{
         left: 51px;
+        
     }
 }
