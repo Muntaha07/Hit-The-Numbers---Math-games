@@ -124,7 +124,7 @@ video iframe{
 
 @media  (max-width:600px) {
      #job{
-        bottom: 154px;
+        bottom: 100px;
         left: 120px;
      }
     #panel {
