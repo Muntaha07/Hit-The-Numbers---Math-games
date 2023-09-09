@@ -36,7 +36,8 @@ function runtimer() {
         }
         else{
             clearInterval(timerint);
-            document.querySelector("#pbottom").innerHTML = `<h1>Game Over </h1>`
+            document.querySelector("#pbottom").innerHTML = `<h1>Game Over </h1>   <a href="./index.html"><input id="job" type="reset" value="New Game"></a> `
+            
         }
 
     }, 1000);
@@ -45,14 +46,7 @@ function runtimer() {
 }
 
 
-// document.querySelector("#pbottom").addEventListener("Click", function (detail){
-//     var clickednum = Number (detail.target.textContent);
-//     if(clickednum === hitrn){
-//         increasescore();
-//         bubble();
-//         getnewhit();
-//     }
-// })
+
 
 document.querySelector("#pbottom")
     .addEventListener("click", function (detail) {

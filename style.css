@@ -10,14 +10,16 @@
     align-items: center;
     width: 100vw;
     height:100vh;
-    background-color: thistle;
+    background-color:#1A1933;
+    
 }
 #panel{
+    margin-top: 50px;
     overflow: hidden;
     width: 80vw;
     height: 80vh;
     border-radius: 10px;
-    background-color: turquoise;
+    background-color: #387675;
 }
 #ptop{
     padding: 0px 30%;
@@ -27,7 +29,7 @@
     color: #fff;
     width: 80vw;
     height: 100px;
-    background-color:rgb(229, 132, 229);
+    background-color: #5958B5;
 }
 .elem{
     display: flex;
@@ -39,7 +41,7 @@
     font-size: 22px;
 }
 .box{
-    color: black;
+    color:#5F00B3;
     font-weight: 700;
     font-size: 20px;
     padding: 10px 20px;
@@ -65,20 +67,73 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    background-color: black;
+    background-color:#271835;
     color: #fff;
     border-radius: 50%;
     font-weight: 500;
 
 }
 .bubble:hover{
-    background-color: rgb(229, 132, 229);
+    background-color: #2C95C2;
     cursor: pointer;
+}
+
+video iframe{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+  }
+
+  #logo{
+    height: 112px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 92px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+}
+  
+  #logo img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: fill;
+    object-position: center;
+}
+
+#job {
+    position: absolute;
+    bottom: 197px;
+    padding: 11px 22px;
+    border: 3px solid #ddd;
+    font-size: 17px;
+    color: white;
+    background-color:cadetblue;
+    cursor: crosshair;
+    font-style: italic;
+    left: 496px;
+}
+#job:hover{
+    background-color: #2C95C2;
 }
 
 
 
 @media  (max-width:600px) {
+     #job{
+        bottom: 240px;
+        left: 138px;
+     }
+    #panel {
+        overflow: hidden;
+        width: 80vw;
+        height: 82vh;
+        border-radius: 50px;
+        
+    }
     #ptop{
         padding: 0px 10%;
         
@@ -99,5 +154,8 @@
         font-size: 11px;
         padding: 10px 10px;
         
+    }
+    #logo{
+        left: 51px;
     }
 }
